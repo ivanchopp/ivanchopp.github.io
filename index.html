@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ivan Pinto — Portafolio</title>
+  <meta name="description" content="Portafolio de Ivan Pinto: operaciones financieras, fintech y herramientas con IA.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#inicio">Ivan Pinto</a>
+    <nav>
+      <a href="#proyectos" data-i18n="nav_projects">Proyectos</a>
+      <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="#habilidades" data-i18n="nav_skills">Habilidades</a>
+      <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+      <button id="lang" aria-label="Cambiar idioma / Change language">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <p class="eyebrow" data-i18n="hero_eyebrow">Operaciones financieras · Fintech · IA aplicada</p>
+      <h1><span class="plain" data-i18n="hero_hi">Hola, soy</span> <span>Ivan Pinto</span>.</h1>
+      <p class="lead" data-i18n="hero_lead">Más de 5 años en servicios financieros y fintech, y herramientas propias construidas con IA. Aquí encuentras algunos de mis proyectos.</p>
+      <div class="cta">
+        <a class="btn" href="#proyectos" data-i18n="hero_cta1">Ver proyectos</a>
+        <a class="btn ghost" href="#contacto" data-i18n="hero_cta2">Contáctame</a>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2 data-i18n="projects_title">Proyectos</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="slider" aria-roledescription="carousel">
+            <div class="slides">
+              <img src="img/contabilidad-1.png" alt="Tablero de inicio con próximas obligaciones y calendario" loading="lazy">
+              <img src="img/contabilidad-3.png" alt="Agenda tributaria con vencimientos y estados" loading="lazy">
+              <img src="img/contabilidad-4.png" alt="Checklist de documentos por empresa" loading="lazy">
+              <img src="img/contabilidad-2.png" alt="Equipo con roles y carga de trabajo" loading="lazy">
+            </div>
+            <button class="nav prev" aria-label="Anterior">‹</button>
+            <button class="nav next" aria-label="Siguiente">›</button>
+            <div class="dots"></div>
+          </div>
+          <h3 data-i18n="p3_title">Plataforma de gestión contable</h3>
+          <p data-i18n="p3_desc"></p>
+          <ul class="tags"><li>React</li><li>TypeScript</li><li>Vite</li><li>Supabase</li><li>Vercel</li></ul>
+          <div class="links"><a href="https://programa-contabilidad-three.vercel.app/" target="_blank" rel="noopener">Demo</a></div>
+        </article>
+
+        <article class="card">
+          <div class="slider" aria-roledescription="carousel">
+            <div class="slides">
+              <img src="img/gimnasio-1.png" alt="Resumen del negocio con miembros activos, deudas y aniversarios" loading="lazy">
+              <img src="img/gimnasio-2.png" alt="Gestión de miembros, planes, estados de pago y acciones" loading="lazy">
+              <img src="img/gimnasio-3.png" alt="Configuración de horarios y franjas horarias del gimnasio" loading="lazy">
+            </div>
+            <button class="nav prev" aria-label="Anterior">‹</button>
+            <button class="nav next" aria-label="Siguiente">›</button>
+            <div class="dots"></div>
+          </div>
+          <h3 data-i18n="p4_title">Plataforma de gestión para gimnasio</h3>
+          <p data-i18n="p4_desc"></p>
+          <ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Tailwind</li><li>Supabase</li><li>WhatsApp (Baileys)</li></ul>
+          <div class="links"><a href="https://web-production-c8bd9.up.railway.app/login" target="_blank" rel="noopener">Demo</a></div>
+        </article>
+
+        <article class="card">
+          <div class="slider" aria-roledescription="carousel">
+            <div class="slides">
+              <img src="img/amigo-secreto.png" alt="Portada de la app de amigo secreto" loading="lazy">
+              <img src="img/amigo-secreto-2.png" alt="Inicio de sesión" loading="lazy">
+              <img src="img/amigo-secreto-3.png" alt="Panel personal con cuenta regresiva, presupuesto y mensajes anónimos" loading="lazy">
+              <img src="img/amigo-secreto-4.png" alt="Lista de grupos del usuario" loading="lazy">
+              <img src="img/amigo-secreto-5.png" alt="Panel del organizador con invitación, categoría y configuración de la edición" loading="lazy">
+            </div>
+            <button class="nav prev" aria-label="Anterior">‹</button>
+            <button class="nav next" aria-label="Siguiente">›</button>
+            <div class="dots"></div>
+          </div>
+          <h3 data-i18n="p5_title">Amigo secreto</h3>
+          <p data-i18n="p5_desc"></p>
+          <ul class="tags"><li>Node.js</li><li>Express</li><li>SQLite</li><li>Web Push</li></ul>
+          <div class="links"><a href="https://amigo-secreto-app-production-18c0.up.railway.app/" target="_blank" rel="noopener">Demo</a></div>
+        </article>
+
+        <article class="card">
+          <div class="slider" aria-roledescription="carousel">
+            <div class="slides">
+              <img src="img/asesor-portada.png" alt="Portada del asistente conversacional de vivienda" loading="lazy">
+              <img src="img/asesor.png" alt="Panel del asesor con leads, cupo regulatorio y conversaciones" loading="lazy">
+            </div>
+            <button class="nav prev" aria-label="Anterior">‹</button>
+            <button class="nav next" aria-label="Siguiente">›</button>
+            <div class="dots"></div>
+          </div>
+          <h3>Asesor Digital de Vivienda</h3>
+          <p data-i18n="p1_desc">Agente conversacional que perfila usuarios, recomienda proyectos de vivienda y subsidios aplicables, y envía el resumen al asesor comercial por correo.</p>
+          <ul class="tags"><li>Python</li><li>FastAPI</li><li>LLM</li><li>Render</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <h2 data-i18n="about_title">Sobre mí</h2>
+      <p data-i18n="about_p1"></p>
+      <p data-i18n="about_p2"></p>
+      <p data-i18n="about_p3"></p>
+    </section>
+
+    <section id="habilidades">
+      <h2 data-i18n="skills_title">Habilidades</h2>
+      <div class="skill-group">
+        <h3 data-i18n="sk_fin">Finanzas y operaciones</h3>
+        <ul class="tags big">
+          <li data-i18n="sk_fin1">Conciliaciones contables</li>
+          <li data-i18n="sk_fin2">Cuentas por pagar y por cobrar (AP/AR)</li>
+          <li data-i18n="sk_fin3">Análisis de cuentas y prevención de fraude</li>
+          <li data-i18n="sk_fin4">Soporte a clientes fintech</li>
+          <li data-i18n="sk_fin5">Control de calidad (QA)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 data-i18n="sk_tools">Herramientas</h3>
+        <ul class="tags big">
+          <li>Salesforce</li><li>Sage Intacct</li><li data-i18n="sk_tools1">Excel avanzado</li><li>Metabase</li><li>Retool</li><li>Intercom</li><li>Slack / Teams</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 data-i18n="sk_ai">IA aplicada</h3>
+        <ul class="tags big">
+          <li data-i18n="sk_ai1">Agentes conversacionales con LLM</li>
+          <li data-i18n="sk_ai2">Integración multi-proveedor (OpenAI, Gemini, Vertex AI)</li>
+          <li data-i18n="sk_ai3">Desarrollo asistido por IA (Claude Code)</li>
+          <li data-i18n="sk_ai4">Revisión y validación del código generado</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 data-i18n="sk_dev">Desarrollo y datos</h3>
+        <ul class="tags big">
+          <li>Python</li><li>FastAPI</li><li>TypeScript</li><li>JavaScript</li><li>React</li><li>Next.js</li><li>Node.js</li><li>Supabase</li><li>PostgreSQL / RLS</li><li>SQLite</li><li>Git &amp; GitHub</li>
+          <li data-i18n="sk_data1">Autenticación y roles</li><li data-i18n="sk_data2">Manejo seguro de secretos</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 data-i18n="sk_lang">Idiomas</h3>
+        <ul class="tags big">
+          <li data-i18n="lang_es">Español · Nativo</li><li data-i18n="lang_en">Inglés · C1</li><li data-i18n="lang_pt">Portugués · B2+</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 data-i18n="sk_edu">Formación</h3>
+        <ul class="tags big">
+          <li data-i18n="edu1">Técnico en Sistemas · CUN (2018)</li>
+          <li data-i18n="edu2">Google UX Design (2025)</li>
+          <li data-i18n="edu3">IA y Productividad · Santander Open Academy (2024)</li>
+          <li data-i18n="edu4">Python (Google) y Bookkeeping (Intuit) · en curso</li>
+        </ul>
+      </div>
+      <p><a class="btn ghost" href="cv.pdf" data-i18n="cv_btn">Descargar CV</a></p>
+    </section>
+
+    <section id="contacto">
+      <h2 data-i18n="contact_title">Contacto</h2>
+      <p data-i18n="contact_text">¿Tienes un proyecto o quieres hablar? Escríbeme.</p>
+      <ul class="contact">
+        <li><a href="mailto:ivanpintopa@gmail.com">ivanpintopa@gmail.com</a></li>
+        <li><a href="https://wa.me/573016101828" target="_blank" rel="noopener">WhatsApp +57 301 610 1828</a></li>
+        <li><a href="https://www.linkedin.com/in/ivan-pinto-9a913a147" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/ivanchopp" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Ivan Pinto</footer>
+  <script src="script.js"></script>
+</body>
+</html>
